@@ -9,35 +9,17 @@
 {% include intro.html %}
 {% include about.html %}
 
-<section id="speaker" class="content-section text-center download-section homepage">
-  <div class="container">
-    <h2 class="speaker-title">Sprekers</h2>
-
-    {% for spreker in site.sprekers %}
-      <div class="speakers-wrapper text-left">
-        <div class="row speaker">
-          <div class="col-sm-2 image center">
-            <div class="image-box">
-              <img src="/assets/images/people/{{ spreker.ref }}.jpg" alt="{{ spreker.naam }}"/>
-            </div>
-          </div>
-
-          <div class="col-sm-10">
-            <p class="name">{{ spreker.naam }}</p>
-            <p class="about-speaker"><b>{{ spreker.titel }}</b></p>
-            <div class="about-speaker">{{ spreker.content }}</div>
-          </div>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
+<section id="speaker">
+    <div class="container">
+        <hr />
+        <h2>Sprekers</h2>
+        {% include sprekers_list.html %}
+    </div>
 </section>
 
-<section id="contact" class="container content-section text-center homepage">
+<section id="contact">
   <div class="row">
-    <div class="col-sm-8 col-sm-offset-2">
       <h2>Contact</h2>
-      <p> </p>
       <p class="home-paragraph">Stuur ons een email: <a href="mailto:rdwtechday@rdw.nl">RDW Techday Organisatie</a> </p>
     </div>
   </div>

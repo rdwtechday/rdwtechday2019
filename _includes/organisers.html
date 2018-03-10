@@ -1,10 +1,17 @@
-<div class='gci-heading gci-heading-1'>Organisatie</div>
 <div class="row">
-  {% for organizer in site.organizers %}
-    <div class="col-sm-2 staff">
-      <img src="/assets/images/people/{{ organizer.ref }}.jpg" alt="{{ organizer.naam }}" />
-      <div class="title">{{ organizer.naam }}</div>
-      <div class="twitter">{{ organizer.rol }}</div>
-    </div>
-  {% endfor %}
+    <hr />
+    <h3>Organisatie</h3>
+    {% for organizer in site.organizers %}
+        <div class="media">
+            <div class="media-left">
+                <a href="#">
+                    <img class="media-object" src="/assets/images/people/{{ organizer.ref }}.jpg" alt="{{ organizer.naam }}" />
+                </a>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">{{ organizer.naam }}</h4>
+                <p>{{ organizer.rol }}</p>
+            </div>
+        </div>
+    {% endfor %}
 </div>

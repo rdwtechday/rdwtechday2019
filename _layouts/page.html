@@ -7,18 +7,10 @@
 
 {% include nav.html %}
 
-
-
-<section class="content-section download-section homepage">
-  <div class="container">
-  <div class="inner-page">
-  <div class="container container-section">
-	{% include title.html %}
-    {{ content }}
-  </div>
-  </div>
-  </div>
-</section>
+<div class="wrap">
+{% include title.html %}
+{{ content }}
+</div>
 
 {% include footer.html %}
 </body>

@@ -3,28 +3,6 @@ layout: page
 title: Sprekers
 message: De sprekers van de RDW Techday 2018
 ---
-
-{% assign sorted_sprekers = site.sprekers | sort:"naam" %}
-{% for spreker in sorted_sprekers %}
-  <div id="{{ spreker.ref }}" class="speakers-wrapper text-left">
-    <div class="row speaker">
-      <div class="col-sm-2 image center">
-        <div class="image-box">
-          <img src="/assets/images/people/{{ spreker.ref }}.jpg" alt="{{ spreker.naam }}"/>
-        </div>
-      </div>
-
-      <div class="col-sm-10">
-        <p class="name">{{ spreker.naam }}</p>
-        <p class="about-speaker"><b>{{ spreker.titel }}</b></p>
-        <p class="about-speaker">{{ spreker.content }}</p>
-        Sessie:
-        {% for sessie in site.sessies %}
-          {% for spreker_ref in sessie.sprekers %}
-            {% if spreker_ref == spreker.ref %}<a href="\sessies#{{sessie.title | cgi_escape}}"> {{ sessie.titel }} </a> &nbsp;{% endif %}
-          {% endfor %}
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-{% endfor %}
+<div class="container">
+    {% include sprekers_list.html %}
+</div>
