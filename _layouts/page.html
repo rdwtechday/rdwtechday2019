@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+
+{% include nav.html %}
+
+<section class="content-section download-section homepage">
+  <div class="container">
+  <div class="inner-page">
+  <div class="container container-section">
+	<div class='gci-heading gci-heading-1'>{{ page.title }}</div>
+    {{ content }}
+  </div>
+  </div>
+  </div>
+</section>
+
+{% include footer.html %}
+</body>
+</html>

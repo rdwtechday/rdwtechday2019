@@ -1,0 +1,22 @@
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+      <a class="navbar-brand navbar-left" href="#"><img class=" navbar-img" src="/assets/images/logo.png"></a>
+      <a class="navbar-brand" href="{{ site.github_project_name }}/#page-top"> 
+        <span>RDW TECHDAY 2017</span> <br/>
+        <span class="first-conf">Kennis delen en ontwikkelen</span>
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+      <ul class="nav navbar-nav">
+      {% for my_page in site.pages %}
+        {% if my_page.title %}
+          <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>

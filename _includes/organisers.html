@@ -1,0 +1,10 @@
+<div class='gci-heading gci-heading-1'>Organisatie</div>
+<div class="row">
+  {% for organizer in site.organizers %}
+    <div class="col-sm-2 staff">
+      <img src="/assets/images/people/{{ organizer.ref }}.jpg" alt="{{ organizer.naam }}" />
+      <div class="title">{{ organizer.naam }}</div>
+      <div class="twitter">{{ organizer.rol }}</div>
+    </div>
+  {% endfor %}
+</div>
