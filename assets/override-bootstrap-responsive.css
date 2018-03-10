@@ -1,65 +1,243 @@
-/*Mobile portrait*/
-@media (max-width:480px) {
-	.sticker > span.pull-right{
-		float:none!important;
-	}
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: #003;
 }
 
-/*Mobile landscape*/
-@media (min-width: 481px) and (max-width:599px) {
-	.sticker > span.pull-right{
-		float:none!important;
-	}
+label {
+    color: #003;
+    font-weight: bold;
 }
 
-/*Small tablet portrait*/
-@media (min-width: 600px) and (max-width: 767px) {
-	.sticker > span.pull-right{
-		float:none!important;
-	}
+a {
+    color: #c30;
 }
 
-/*Small tablet landscape*/
-@media (min-width: 768px) and (max-width: 979px) {
-	.sticker  > span.pull-right{
-		float:none!important;
-	}
-}
-/*Tablet portrait*/
-@media (min-width:801px) and (max-width:1023px) {
-	.sticker > span.pull-right{
-		float:none!important;
-	}
+    a:hover {
+        color: #003;
+    }
+
+.input-validation-error {
+    background-color: #F2CCCF;
 }
 
-/*Tablet landscape (1024x768)*/
-@media (min-width: 992px) and (max-width: 1199px){
-
+.field-validation-error {
+    /* offical colors look very bad here
+    color: #c30;
+    background-color: #FCFCFC;
+    */
 }
 
-/*Tablet landscape*/
-@media (min-width: 992px) and (max-width: 1199px) {
-
+.jumbotron a {
+    background-color: #f2f2f5;
 }
 
-/*large monitor*/
-@media (min-width:1400px) and (max-width:1920px){
-
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-top: 60px;
+    padding-bottom: 20px;
 }
 
-#page-top .navbar-inverse .navbar-brand{
-  color: #fff;
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.navbar-inverse .navbar-nav>li>a {
-  color: #c1c1c1;
+/* QR code generator */
+#qrCode {
+    margin: 15px;
 }
 
-.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
-  margin-top: 8px;
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top: 10px !important;
+    padding-bottom: 0 !important;
+    height: 40px;
 }
 
-.label {
-	font-size: 20pt;
-	margin-bottom: 15px;
+.navbar {
+    min-height: 40px !important;
+}
+
+.navbar-toggle {
+    padding: 0 0;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+
+.navbar-inverse {
+    background-color: #C30;
+    border-color: #fff;
+}
+
+    .navbar-inverse .navbar-brand {
+        color: #fff;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: #fff;
+    }
+
+        .navbar-inverse .navbar-nav > li > a:hover {
+            color: #fff;
+            background-color: #B20;
+        }
+
+    .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+        color: #C30;
+        background-color: #fff;
+        font-weight: bold;
+    }
+
+.open > #stambellen-dropdown {
+    color: #fff;
+    background-color: #c30;
+    font-weight: bold;
+}
+
+.dropdown-menu > .active > a {
+    background-color: #c30;
+}
+
+.title-row {
+    margin-top: 0px;
+}
+
+    .title-row h2 {
+        margin-top: 0px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+
+    .title-row h4 {
+        color: #666;
+        margin-top: 0px;
+        font-size: 1.2em;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+
+    .title-row img {
+        margin-top: 8px;
+    }
+
+hr.title-row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* ensure navbar collapses a bit earlier as it contains a lot of menu items */
+@media (max-width: 1000px) {
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-left, .navbar-right {
+        float: none !important;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-nav {
+        float: none !important;
+        margin-top: 7.5px;
+    }
+
+        .navbar-nav > li {
+            float: none;
+        }
+
+            .navbar-nav > li > a {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+    .collapse.in {
+        display: block !important;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #003;
+    color: #fff;
+    margin: 0 0 0;
+}
+
+    .footer p {
+        margin: 0 0 0;
+    }
+
+
+    .footer a {
+        color: #fff;
+    }
+
+        .footer a:hover, a:focus {
+            color: #fff;
+            font-weight: bold;
+        }
+
+.vertical-dash {
+    padding-left: 10px;
+    border-right: 1px solid #fff;
+    margin-right: 10px;
+}
+
+
+
+
+
+.btn-rdw {
+    color: #fff;
+    background-color: #c30;
+    border-color: #c30;
+    margin-top: 0px;
+}
+
+.btn.btn-rdw:hover {
+    color: #fff;
+    background-color: #b20;
+    border-color: #b20;
+}
+
+.label.label-sessieselect {
+    font-size: 100%;
 }
