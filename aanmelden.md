@@ -8,7 +8,7 @@ medewerkers van bedrijven die meedoen aan Samenwerking Noord.
 Voor Samenwerking Noord zijn een beperkt aantal plaatsen beschikbaar.
  
 RDW medewerkers kunnen zich via e-mail aanmelden bij 
-<mailto:rdwtechday@rdw.nl> 
+[de registratie site.](https://registration.rdwtechday.nl)
 
 Samenwerking Noord leden kunnen zich via e-mail aanmelden bij 
 <mailto:g.brinksma@samenwerkingnoord.nl>

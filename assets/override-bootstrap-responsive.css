@@ -157,7 +157,6 @@ hr.title-row {
 
     .navbar-fixed-top {
         top: 0;
-        border-width: 0 0 1px;
     }
 
     .navbar-collapse.collapse {
@@ -205,19 +204,19 @@ body {
     margin: 0 0 0;
 }
 
-    .footer p {
-        margin: 0 0 0;
-    }
+.footer p {
+    margin: 0 0 0;
+}
 
 
-    .footer a {
-        color: #fff;
-    }
+.footer a {
+    color: #fff;
+}
 
-        .footer a:hover, a:focus {
-            color: #fff;
-            font-weight: bold;
-        }
+.footer a:hover, a:focus {
+    color: #fff;
+    font-weight: bold;
+}
 
 .vertical-dash {
     padding-left: 10px;
@@ -241,4 +240,24 @@ body {
 
 .label.label-sessieselect {
     font-size: 100%;
+}
+
+.intro {
+    background: url(../../assets/images/bg.jpg) no-repeat bottom center scroll #292c33;
+    z-index: -1;
+}
+
+
+.rdw-orange {
+    color: #C30;
+    font-size: 600%;
+}
+
+.rdw-light-gray {
+    font-size: 300%;
+    color: #f2f2f5;
+}
+
+.rdw-gray {
+    color: #888;
 }

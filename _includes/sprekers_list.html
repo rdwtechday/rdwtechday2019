@@ -10,12 +10,26 @@
         <h4>{{ spreker.naam }}</h4>
         <p class="about-speaker"><b>{{ spreker.titel }}</b></p>
         <p class="about-speaker">{{ spreker.content }}</p>
-        <h4>Sessie:</h4>
+        {% assign session_count = 0 %}
         {% for sessie in site.sessies %}
         {% for spreker_ref in sessie.sprekers %}
-        {% if spreker_ref == spreker.ref %}<a href="\sessies#{{sessie.title | cgi_escape}}"> {{ sessie.titel }} </a> &nbsp;{% endif %}
+        {% if spreker_ref == spreker.ref %}
+        {% assign session_count = session_count | plus: 1 %}
+        {% endif %}
         {% endfor %}
         {% endfor %}
+        {% if session_count > 0 %}
+            {% if session_count > 1 %}
+            <h4>Sessies:</h4>
+            {% else %}
+            <h4>Sessie:</h4>
+            {% endif %}
+            {% for sessie in site.sessies %}
+            {% for spreker_ref in sessie.sprekers %}
+            {% if spreker_ref == spreker.ref %}<p></p><a href="\sessies#{{sessie.title | cgi_escape}}"> {{ sessie.titel }} </a> &nbsp;</p>{% endif %}
+            {% endfor %}
+            {% endfor %}
+        {% endif %}
         <hr />
     </div>
 </div>

@@ -5,30 +5,27 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 
-{% include nav.html %}
-{% include intro.html %}
-{% include about.html %}
+    {% include nav.html %}
+    {% include intro.html %}
 
-<section id="speaker">
-    <div class="container">
-        <hr />
-        <h2>Sprekers</h2>
-        {% include sprekers_list.html %}
-    </div>
-</section>
+    {% include about.html %}
 
-<section id="contact">
-  <div class="row">
-      <h2>Contact</h2>
-      <p class="home-paragraph">Stuur ons een email: <a href="mailto:rdwtechday@rdw.nl">RDW Techday Organisatie</a> </p>
-    </div>
-  </div>
-</section>
-
-{% include footer.html %}
+    <section id="speaker">
+        <div class="container">
+            <hr />
+            <h2>Sprekers</h2>
+            {% include sprekers_list.html %}
+        </div>
+    </section>
 </body>
 </html>
 
 
-
+<footer class="footer hidden-xs">
+    <div class="container">
+        <p id="footerparagraph">
+            Copyrights &copy; 2018
+        </p>
+    </div>
+</footer>
          
