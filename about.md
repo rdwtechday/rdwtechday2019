@@ -3,6 +3,7 @@ layout: page
 title: De TECHDAY
 message: Over de conferentie
 permalink: /about/
+order: 6
 ---
 Deze conferentie op 10 april 2018 is een eendaags gesloten event, met lezingen gericht op professionals met belangstelling voor de laatste stand van infrastructuur, software en de "always on" wereld met software defined computing waarin het verschil tussen infrastructuur en  software steeds kleiner wordt. 
 
