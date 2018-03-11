@@ -2,6 +2,7 @@
 layout: page
 title: Aanmelden
 permalink: /aanmelden/
+order: 5
 ---
 Het congres is toegankelijk voor alle RDW collega’s en 
 medewerkers van bedrijven die meedoen aan Samenwerking Noord. 
