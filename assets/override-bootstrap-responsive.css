@@ -283,6 +283,10 @@ body {
     background-size: cover;
 }
 
+.intro .jumbotron {
+    margin-bottom: 100px;
+}
+
 .rdw-intro-big {
     font-size: 600%;
 }
