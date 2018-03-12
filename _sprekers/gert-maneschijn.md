@@ -1,6 +1,6 @@
 ---
 naam: Gert Maneschijn
-titel: Teammanager Advies & Architectuur bij RDW
+titel: CSO bij RDW
 ref: gert-maneschijn
 ---
 Gert has a strong technical background. Key quality is the ability to use this technological background to translate business issues into a secure, manageable and every day working systems. 
