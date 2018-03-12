@@ -2,7 +2,7 @@
 sprekers: [niall-merrigan]
 track: Inspiratie
 titel: Hacking your Neighbours and Other Life Skills
-tijd: 09:00-09:45
+tijd: 10:00-11:00
 locatie: Zaal A
 ---
 Picture this in your mind. Your neighbours playing Spotify in the early hours of the
