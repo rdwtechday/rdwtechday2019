@@ -1,7 +1,7 @@
 ---
 sprekers: [louis-jenema]
 track: Infrastructuur 
-titel: "Azure Stack impressions so far"
+titel: "Azure Stack, impressions so far"
 tijd: 10:00-11:00
 locatie: Zaal A
 ---
