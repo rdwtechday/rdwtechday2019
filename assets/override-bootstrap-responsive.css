@@ -27,12 +27,12 @@ a:hover {
     background-color: #F2CCCF;
 }
 
+/* offical colors look very bad here
 .field-validation-error {
-    /* offical colors look very bad here
     color: #c30;
     background-color: #FCFCFC;
-    */
 }
+*/
 
 .jumbotron a {
     background-color: #f2f2f5;
@@ -100,7 +100,7 @@ body {
 }
 
 .navbar-inverse .navbar-header .navbar-toggle {
-    margin-top: 12px;
+    padding: 6px;
     background-color: #c30;
     border-width: 0px;
 }
