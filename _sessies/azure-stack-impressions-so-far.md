@@ -2,7 +2,7 @@
 sprekers: [louis-jenema]
 track: Infrastructuur 
 titel: "Azure Stack impressions so far"
-tijd: 14:30-15:30
+tijd: 10:00-11:00
 locatie: Zaal A
 ---
 Azure Stack is nu enkele maanden in productie: is het wat er

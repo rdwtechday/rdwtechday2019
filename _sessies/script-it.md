@@ -13,3 +13,5 @@ Visual Studio Team Services to your Azure Subscription respecting your
 Dev/Test/Acc/Prod environments. Provide you a scripting environment with GIT at its
 center with 4 eyes in place. And finally we will do a controlled and approved
 release with Just in Time access to your Azure Resources.
+
+**LET OP: Je kan alleen deelnemen aan de workshop als je een MSDN licentie hebt!!**

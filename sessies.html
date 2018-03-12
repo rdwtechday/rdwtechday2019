@@ -7,6 +7,7 @@ tracks:
   - Infrastructuur
   - Apps
   - Inspiratie
+  - Collaboratie
   - Workshops
   - Closing Note
 ---
@@ -16,15 +17,15 @@ tracks:
 </section>
 <p>&nbsp;</p>
 <div class="well col-sm-12">
-  <a href="/assets/Rdw%20Techday%202017.pdf" target="_blank"><span class="btn btn-warning">Download Agenda (PDF)</span></a>
+  <a href="/assets/Rdw%20Techday%202017.pdf" target="_blank"><span class="btn btn-rdw">Download Agenda (PDF)</span></a>
   &nbsp;
-  <a href="/assets/images/map.png" target="_blank"><span class="btn btn-warning">Plattegrond</span></a>
+  <a href="/assets/images/map.png" target="_blank"><span class="btn btn-rdw">Plattegrond</span></a>
 </div>
 {% for track in page.tracks %}
   {% assign sorted_sessies = site.sessies | where: "track", track | sort:"tijd" %}
 
   <div class="well col-sm-12">
-    <div class="label label-info">{{track}}</div>
+    <div class="label label-rdw label-track">Track: {{track}}</div>
 
     {% for sessie in sorted_sessies %}
       <div id = "{{sessie.title | cgi_escape}}" class="sessie">

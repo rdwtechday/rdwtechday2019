@@ -302,3 +302,13 @@ body {
 .rdw-light-orange {
     color: #E50;
 }
+
+.label-rdw {
+    background-color: #003;
+}
+
+.label-track {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 24px;
+}
