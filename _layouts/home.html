@@ -1,31 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 {% include head.html %}
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
-
-    {% include nav.html %}
-    {% include intro.html %}
-
-    {% include about.html %}
-
-    <section id="speaker">
-        <div class="container">
-            <hr />
-            <h2>Sprekers</h2>
-            {% include sprekers_list.html %}
-        </div>
-    </section>
-
-    <footer class="footer hidden-xs">
-        <div class="container">
-            <p id="footerparagraph">
-                Copyrights &copy; 2018
-            </p>
-        </div>
-    </footer>
-    {% include js.html %}
+<body id="page-top">
+{% include nav.html %}
+{% include intro.html %}
+{% include sprekers.html %}
+{% include footer.html %}
+{% include js.html %}
 </body>
 </html>
 

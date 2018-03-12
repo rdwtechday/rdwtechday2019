@@ -256,25 +256,44 @@ body {
     font-size: 100%;
 }
 
-.intro {
+.rdw-orange {
+    color: #C30;
+}
+
+.rdw-gray-2 {
+    color: #f7f7f7;
+}
+
+
+.rdw-gray-3 {
+    color: #f2f2f5;
+}
+
+.rdw-gray-4 {
+    color: #666;
+}
+
+.rdw-gray-3-bg {
+    background: #f2f2f5;
+}
+
+#about {
     background: url(../../assets/images/bg.jpg) no-repeat bottom center scroll #292c33;
     z-index: -1;
 }
 
-
-.rdw-orange {
-    color: #C30;
+.rdw-intro-big {
     font-size: 600%;
 }
 
-.rdw-light-gray {
+.rdw-intro {
     font-size: 300%;
-    color: #f2f2f5;
 }
 
-.rdw-gray {
-    color: #888;
+.rdw-intro-gray {
+    color: #BBB;
 }
 
-
-
+.rdw-light-orange {
+    color: #E50;
+}
