@@ -280,6 +280,7 @@ body {
 #about {
     background: url(../../assets/images/bg.jpg) no-repeat bottom center scroll #292c33;
     z-index: -1;
+    background-size: cover;
 }
 
 .rdw-intro-big {
