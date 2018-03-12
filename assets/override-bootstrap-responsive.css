@@ -77,27 +77,38 @@ body {
 
 .navbar-inverse {
     background-color: #C30;
-    border-color: #fff;
+    border-width: 0px;
 }
 
-    .navbar-inverse .navbar-brand {
-        color: #fff;
-    }
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
 
-    .navbar-inverse .navbar-nav > li > a {
-        color: #fff;
-    }
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
 
-        .navbar-inverse .navbar-nav > li > a:hover {
-            color: #fff;
-            background-color: #B20;
-        }
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #fff;
+    background-color: #B20;
+}
 
-    .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-        color: #C30;
-        background-color: #fff;
-        font-weight: bold;
-    }
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #C30;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-header .navbar-toggle {
+    margin-top: 12px;
+    background-color: #c30;
+    border-width: 0px;
+}
+
+.navbar-inverse .navbar-header .navbar-toggle:hover {
+    background-color: #b20;
+}
+
 
 .open > #stambellen-dropdown {
     color: #fff;
@@ -261,3 +272,6 @@ body {
 .rdw-gray {
     color: #888;
 }
+
+
+

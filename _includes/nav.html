@@ -12,7 +12,6 @@
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
                 {% assign sorted_pages = site.pages | sort:"order" %}
-
                 {% for my_page in sorted_pages %}
                 {% if my_page.title %}
                 <li>
