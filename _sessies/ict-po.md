@@ -2,6 +2,6 @@
 sprekers: [walter-van-duyneveldt]
 track: Collaboratie
 titel: De rol van de ICT Product Owner
-tijd: 13:15-14:15
+tijd: 10:00-11:00
 locatie: Zaal A
 ---
