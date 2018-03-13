@@ -14,13 +14,10 @@
                 {% assign sorted_pages = site.pages | sort:"order" %}
                 {% for my_page in sorted_pages %}
                 {% if my_page.title %}
-                <li>
-                    <a href="{{ my_page.url | relative_url }}">
-                        {{ my_page.title | escape }}
-                    </a>
-                </li>
+                    <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
                 {% endif %}
                 {% endfor %}
+                <li><a href="https://registration.rdwtechday.nl/Account/Login">Login</a></li>
             </ul>
         </div>
     </div>
