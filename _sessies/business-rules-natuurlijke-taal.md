@@ -5,8 +5,9 @@ titel: Business rules met natuurlijke taal
 tijd: 09:00-09:45
 locatie: Zaal A
 ---
+
 Bij de Belastingdienst gebruiken we gecontroleerde natuurlijke taal om specificaties te maken van wetgeving.
-De taal combineert intuïtieve en formele betekenis, zodat fiscalisten regels kunnen schrijven en valideren en 
+De taal combineert intu&#239;tieve en formele betekenis, zodat fiscalisten regels kunnen schrijven en valideren en 
 tooling kan worden ingezet voor analyse en geautomatiseerde transformatie naar executeerbare code.
 
 Validatie gebeurt met behulp van voorbeeldgevallen die in de tooling kunnen worden doorgerekend en waarvan 
