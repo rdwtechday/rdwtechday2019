@@ -38,10 +38,9 @@ tracks:
         {% else %}
           Spreker:
         {% endif %}
-        {% for spreker_ref in sessie.sprekers %}
-        	{% for spreker in site.sprekers %}
-        	   {% if spreker_ref == spreker.ref %}<a href="\sprekers#{{spreker.ref}}"> {{ spreker.naam }} </a> &nbsp;{% endif %}
-        	{% endfor %}
+        {% assign sorted_speakers = sessie.sprekers  | sort %}
+        {% for spreker_ref in sorted_speakers %}
+            {% for spreker in site.sprekers %}{% if spreker_ref == spreker.ref %}<a href="\sprekers#{{spreker.ref}}">{{ spreker.naam }}</a>{% endif %}{% endfor %}{% if forloop.last == false %}, {% endif %}
         {% endfor %}
         {{ sessie.content }}
       </div>
