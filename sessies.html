@@ -32,7 +32,6 @@ tracks:
       <div id = "{{sessie.title | cgi_escape}}" class="sessie">
         <h3> {{ sessie.titel }} </h3>
         <p><b>Tijd: {{ sessie.tijd }}</b><br/>
-        <!-- <b>Locatie: {{ sessie.locatie }}</b></p> !-->
         {% if  sessie.sprekers.size > 1 %}
           Sprekers:
         {% else %}
