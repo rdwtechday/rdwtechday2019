@@ -3,4 +3,4 @@ naam: Martijn Kieboom
 titel: Senior Solution Architect at MapR Technologies
 ref: martijn-kieboom
 ---
-My most valued strength is my ability to create and present a highly customized product demonstration based on detailed, customer specific, requirements to a broad audience.
+In his current role as a Senior Solution Architect for MapR Data Technologies, Martijn Kieboom helps organisations getting value out of their data based on an endless number of different data driven use cases.
