@@ -3,8 +3,9 @@ naam: Walter van Duyneveldt
 titel: Senior Consultant bij Quint Wellington Redwood
 ref: walter-van-duyneveldt
 ---
-Over 20 years of experience in IT Management. Driven to deliver practical solutions.
-
-Specialties: Enterprise Architecture and IT management, Security and innovation especially Data Science. 
-
-I'm a team player who wants to understand and get the job done. I believe the agile principles work well when you're delivering new technology within an organisation. Keep it simple! 
+Walter is senior consultant bij Quint met een brede ervaring, 
+Hij is gedreven en gepassioneerd over alles wat met technologie te maken heeft. 
+De Agile beweging heeft de potentie om de alignment tussen bedrijfsdiensten 
+en het digitale domein te overbruggen en de snelheid te brengen in 
+product ontwikkeling. Daarmee zijn autonome agile teams essentieel. 
+Hoe ontwikkel je dit soort teams, deze vraag is de schoonheid van het verander vak.
