@@ -1,6 +1,8 @@
 # rdwtechday.github.io
 Rdw Techday Conference Site
 
+It is based on the [Indian Rubyconf site](https://github.com/rubyconfindia/rubyconfindia.github.io)
+
 ## Design of this site
 This site is using the github pages mechanism. You can use [Jekyll](https://jekyllrb.com/) to run the site content locally on your machine. 
 The CNAME file contains the external URL through which this site can be reached. This site uses bootstrap to render responsive content.
