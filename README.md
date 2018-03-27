@@ -35,12 +35,22 @@ The connection between a speaker and a session is made in the session files, see
 ### Sessions collection
 The session pages are located in `/_sessions` and have five fields, the part beneath the last three dashes is used as a description for the session. 
 
+```yaml
+---
+sprekers: john-doe
+track: Track A
+titel: A wonderfull session
+tijd: "11:00-12:00"
+---
+session description
+```
+
 - `speakers:` is a list of speakers doing the session. it is a list of the ref value found in each speaker page
 - `track:` the track in which the session resides
 - `titel` the title of the session
-- `tijd` the time of the session, e.g. 11:00-12:00
+- `tijd` the time of the session
 
-The speaker list can be formatred like this
+The speaker list can be formatted like this
 ```yaml
 speakers: john-doe
 ```
