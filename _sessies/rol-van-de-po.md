@@ -1,7 +1,7 @@
 ---
 sprekers: [roel-beelen, conny-uitdehaag]
 track: Collaboratie
-titel: De rol van de product owner: een organisatie in transitie
+titel: "De rol van de product owner: een organisatie in transitie"
 tijd: 10:00-11:00
 locatie: Zaal A
 ---
