@@ -1,7 +1,7 @@
 ---
 sprekers: [gert-jan-timmerman]
 track: Apps
-titel: BlockChain: Wat is het en wat kun je ermee?
+titel: "BlockChain: Wat is het en wat kun je ermee?"
 tijd: 14:30-15:30
 locatie: Zaal A
 ---
