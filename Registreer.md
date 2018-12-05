@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Aanmelden
+title: Registreer
 permalink: /aanmelden/
 order: 5
 ---
