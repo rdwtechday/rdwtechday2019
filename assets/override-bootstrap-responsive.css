@@ -276,6 +276,9 @@ body {
 .rdw-gray-3-bg {
     background: #f2f2f5;
 }
+.rdw-red {
+    background: #f40202;
+}
 
 #about {
     background: url(../../assets/images/bg.jpg) no-repeat bottom center scroll #292c33;
