@@ -1,5 +1,5 @@
 ---
 naam: Roelof Luinge
-rol: Senior System Engineer
+rol: Senior SystemCenter Engineer
 ref: roelof-luinge
 ---
