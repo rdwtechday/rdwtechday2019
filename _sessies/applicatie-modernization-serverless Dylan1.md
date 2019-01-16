@@ -1,8 +1,8 @@
 ---
 sprekers: [dylan-de-jong]
-track: Apps
-titel: Application modernization met Serverless Computing
-tijd: 10:00-11:00
+track: Infrastructuur
+titel: Cloud Services
+tijd: 13:15-14:15
 locatie: Zaal A
 ---
 In this session I will take you on a typical Application Modernization journey, 
