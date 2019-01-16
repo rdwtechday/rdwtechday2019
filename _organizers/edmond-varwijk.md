@@ -1,5 +1,5 @@
 ---
 naam: Edmond Varwijk
-rol: Overhead
+rol: Senior Overhead
 ref: edmond-varwijk
 ---
