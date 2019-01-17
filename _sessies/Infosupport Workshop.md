@@ -2,7 +2,7 @@
 sprekers: [mark-klabbers]
 track: Workshops
 titel: Infosupport Hacking? Lockpicking
-tijd: 09:00-09:45
+tijd: 10:00-12:15
 locatie: Zaal A
 ---
 Inhoud nog bepalen
