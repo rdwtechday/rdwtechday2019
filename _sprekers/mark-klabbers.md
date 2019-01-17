@@ -1,6 +1,6 @@
 ---
-naam: Mark Wildenberg
-titel: Consultant at Microsoft
-ref: mark-wildenberg
+naam: Mark Klabbers
+titel: Infosupport
+ref: mark-klabbers
 ---
 Consultant at Microsoft
