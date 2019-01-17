@@ -1,5 +1,5 @@
 ---
-sprekers: [frank-spoelman gerard-zuideveld]
+sprekers: [frank-spoelman]
 track: Workshops
 titel: Intro to 3D printing
 tijd: 13:15-15:30
