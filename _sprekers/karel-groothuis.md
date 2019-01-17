@@ -1,6 +1,6 @@
 ---
-naam: 
-titel: MCA
-ref: 
+naam: Karel Groothuis
+titel: Full professor Transport, Policy and Logistics Organisation (TUD)
+ref: karel-groothuis
 ---
 Bruno Fabre is gediplomeerd in AI (Kunstmatig Intelligentie), NLP (Neuro Linguïstiek Programmeren) en Financial Planning. Hij is werkzaam als Senior Innovatie Manager bij een grote corporate, is Mass Change Agent en eigenaar van The Bright ID (strategische consultancy, acceleratie in visie ontwikkeling en change programma’s).
