@@ -1,5 +1,5 @@
 ---
 naam: Edmond Varwijk
-rol: Senior Overhead
+rol: Auditor
 ref: edmond-varwijk
 ---
