@@ -1,6 +1,6 @@
 ---
-naam: 
-titel: MCA
-ref: 
+naam: Jeroen Mulder
+titel: Hybrid IT Executive Enterprise Architect
+ref: jeroen-mulder
 ---
-Bruno Fabre is gediplomeerd in AI (Kunstmatig Intelligentie), NLP (Neuro Linguïstiek Programmeren) en Financial Planning. Hij is werkzaam als Senior Innovatie Manager bij een grote corporate, is Mass Change Agent en eigenaar van The Bright ID (strategische consultancy, acceleratie in visie ontwikkeling en change programma’s).
+Jeroen is certified Enterprise Architect, specialized in financial systems and retail. Current assignments include Azure, Fujitsu's OpenStack K5 and VMware based cloud environments. He frequently publishes articles about emerging technology. Last, he's a certified systems auditor and holds CISA certification.
