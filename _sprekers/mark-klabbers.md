@@ -1,6 +1,6 @@
 ---
 naam: Mark Klabbers
-titel: Enterprise Infosupport
+titel: Infosupport
 ref: mark-klabbers
 ---
-Bio nog ontvangen
+Consultant at Microsoft
