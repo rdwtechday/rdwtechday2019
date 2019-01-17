@@ -1,6 +1,6 @@
 ---
 sprekers: [eelco-koster]
-track: 
+track: Apps
 titel: Machine Learning toevoegen aan jouw applicatie
 tijd: 11:15-12:15
 locatie: Zaal A
