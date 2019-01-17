@@ -1,6 +1,6 @@
 ---
 sprekers: [mark-klabbers]
-track: 
+track: Collaboratie
 titel: Dat moeten we nog bepalen
 tijd: 11:15-12:15
 locatie: Zaal A
