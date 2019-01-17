@@ -31,16 +31,30 @@ tracks:
     {% for sessie in sorted_sessies %}
       <div id = "{{sessie.title | cgi_escape}}" class="sessie">
         <h3> {{ sessie.titel }} </h3>
-        <p><b>Tijd: {{ sessie.tijd }}</b><br/>
+        <p><b>Tijd&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: {{ sessie.tijd }}</b><br/>
         {% if  sessie.sprekers.size > 1 %}
-          Sprekers:
+          Sprekers&nbsp;&nbsp;:
         {% else %}
-          Spreker:
+          Spreker&nbsp;&nbsp;&nbsp;:
         {% endif %}
         {% assign sorted_speakers = sessie.sprekers  | sort %}
         {% for spreker_ref in sorted_speakers %}
-            {% for spreker in site.sprekers %}{% if spreker_ref == spreker.ref %}<a href="\sprekers#{{spreker.ref}}">{{ spreker.naam }}</a>{% endif %}{% endfor %}{% if forloop.last == false %}, {% endif %}
+            {% for spreker in site.sprekers %}
+				{% if spreker_ref == spreker.ref %}
+					<a href="\sprekers#{{spreker.ref}}">{{ spreker.naam }}</a>
+				{% endif %}
+			{% endfor %}
+			{% if forloop.last == false %}, 
+			{% endif %}
         {% endfor %}
+		{% if sessie.niveau %}
+			<br />
+			Niveau&nbsp;&nbsp;&nbsp;&nbsp;: 
+			{% for index in (1..sessie.niveau) %}
+				<img src="../assets/images/peper.png" alt="peper" height="25" width="15">
+			{% endfor %}
+		{% endif %}
+		<br /><br />
         {{ sessie.content }}
       </div>
     {% endfor %}
