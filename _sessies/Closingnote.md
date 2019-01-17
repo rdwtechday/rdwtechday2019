@@ -1,8 +1,8 @@
 ---
 sprekers: [karel-brookhuis]
-track: ClosingNote
-titel: Dat moeten we nog bepalen
-tijd: 15:15-16:30
+track: Closing Note
+titel: Verkeer en psycho
+tijd: 15:45-16:00
 locatie: Zaal A
 ---
 Krijgen we nog
