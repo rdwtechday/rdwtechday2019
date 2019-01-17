@@ -1,8 +1,8 @@
 ---
 sprekers: [sander-elias]
-track: Apps
+track: Inspiratie
 titel: Angular, An introduction. 
-tijd: 13:15-14:15
+tijd: 11:15-12:15
 locatie: Zaal A
 ---
 I will explain what Angular is, Why you should use Angular. I will give a short state of affairs, and what is planned for the future.
