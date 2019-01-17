@@ -1,6 +1,6 @@
 ---
 sprekers: [karel-brookhuis]
-track: Closing Note
+track: ClosingNote
 titel: Dat moeten we nog bepalen
 tijd: 15:15-16:30
 locatie: Zaal A
