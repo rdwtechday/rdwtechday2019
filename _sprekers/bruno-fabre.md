@@ -3,4 +3,4 @@ naam: Bruno Fabre
 titel: MCA
 ref: bruno-fabre
 ---
-Bruno Fabre is gediplomeerd in AI (Kunstmatig Intelligentie), NLP (Neuro Linguïstiek Programmeren) en Financial Planning. Hij is werkzaam als Senior Innovatie Manager bij een grote corporate, is Mass Change Agent en eigenaar van The Bright ID (strategische consultancy, acceleratie in visie ontwikkeling en change programma’s).
+Bruno Fabre is afgestudeerd in Kunstmatige Intelligentie in een van de meest prestigieuze universiteit van Parijs. Hij is auteur, trendwatcher, international spreker en Mass Change Agent: zijn doel is zo veel mogelijk mensen helpen de transitie te maken naar de Post-technologische tijd, wanneer de robots onze werk hebben overgenomen. Een enthousiast en indrukwekkende spreker, die het hoofd laat duizelen. 
