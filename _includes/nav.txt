@@ -7,19 +7,19 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{https://rdwtechdayweb-o.azurewebsites.net/}}"><text>&nbsp;</text>RDW Techday</a>
+            <a class="navbar-brand" href="{{https://rdwtechdayweb.azurewebsites.net/}}"><text>&nbsp;</text>RDW Techday</a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-			<li><a href="https://rdwtechdayweb-o.azurewebsites.net/Users/SelectSessies">Mijn Agenda1</a></li>
+			<li><a href="https://rdwtechdayweb.azurewebsites.net/Users/SelectSessies">Mijn Agenda1</a></li>
                 {% assign sorted_pages = site.pages | sort:"order" %}
                 {% for my_page in sorted_pages %}
                 {% if my_page.title %}
                     <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
                 {% endif %}
                 {% endfor %}
-				<li><a href="https://rdwtechdayweb-o.azurewebsites.net/Account/Register">Registreer</a></li>
-                <li><a href="https://rdwtechdayweb-o.azurewebsites.net/Account/Login">Login</a></li>
+				<li><a href="https://rdwtechdayweb.azurewebsites.net/Account/Register">Registreer</a></li>
+                <li><a href="https://rdwtechdayweb.azurewebsites.net/Account/Login">Login</a></li>
 				
             </ul>
         </div>
