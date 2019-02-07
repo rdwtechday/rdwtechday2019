@@ -1,6 +1,6 @@
 ---
 naam: Pierre de Wit
-titel: Infrastructure Advisor
+titel: Innovation $ Digital Strategy consultant at Quint
 ref: pierre-de-wit
 ---
-Infrastructure Advisor
+Innovation $ Digital Strategy consultant at Quint
