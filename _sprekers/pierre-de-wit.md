@@ -1,6 +1,6 @@
 ---
-naam: Frank Spoelman
+naam: Pierre de Wit
 titel: Infrastructure Advisor
-ref: frank-spoelman
+ref: Pierre-de-wit
 ---
 Infrastructure Advisor
