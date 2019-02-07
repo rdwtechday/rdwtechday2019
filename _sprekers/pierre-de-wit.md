@@ -1,6 +1,6 @@
 ---
 naam: Pierre de Wit
 titel: Infrastructure Advisor
-ref: Pierre-de-wit
+ref: pierre-de-wit
 ---
 Infrastructure Advisor
