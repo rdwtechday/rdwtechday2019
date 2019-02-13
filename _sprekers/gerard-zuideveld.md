@@ -1,6 +1,6 @@
 ---
 naam: Gerard Zuideveld
-titel: Netwerk Engineer	
+titel: Netwerkbeheerder	
 ref: gerard-zuideveld
 ---
 netwerk engineer
