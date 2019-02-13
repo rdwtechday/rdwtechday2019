@@ -1,6 +1,6 @@
 ---
-naam: Mark Klabbers
-titel: Infosupport
-ref: mark-klabbers
+naam: Gijs van Dulmen
+titel: Analyst, Coach and Trainer at Infosupport
+ref: gijs-van-dulmen
 ---
-Consultant at Microsoft
+Analyst, Coach and Trainer at Infosupport
