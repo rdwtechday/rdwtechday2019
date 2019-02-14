@@ -1,5 +1,5 @@
 ---
-naam: Simon de Lang
+naam: Simon de Lang (InfoSupport)
 titel: DevOps engineer & ALM Consultant
 ref: simon-de-lange
 ---
