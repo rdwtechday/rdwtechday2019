@@ -1,5 +1,5 @@
 ---
-naam: Randal van Poelvoorde
+naam: Randal van Poelvoorde (RobotXperience)
 titel: Cofounder RobotXperience & International Keynote Speaker
 ref: randall-van-poelvoorde
 ---

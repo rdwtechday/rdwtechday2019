@@ -1,5 +1,5 @@
 ---
-naam: Christiaan Beek
+naam: Christiaan Beek (McAfee)
 titel: Lead Scientist and Sr. Principal Engineer at McAfee
 ref: christiaan-beek
 ---

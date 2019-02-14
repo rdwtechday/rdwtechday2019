@@ -1,5 +1,5 @@
 ---
-naam: Eelco Koster
+naam: Eelco Koster (Vitas)
 titel: MCA
 ref: eelco-koster
 ---

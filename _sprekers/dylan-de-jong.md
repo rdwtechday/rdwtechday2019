@@ -1,5 +1,5 @@
 ---
-naam: Dylan de Jong
+naam: Dylan de Jong (Microsoft)
 titel: CSA at Microsoft
 ref: dylan-de-jong
 ---

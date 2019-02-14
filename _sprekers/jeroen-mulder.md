@@ -1,5 +1,5 @@
 ---
-naam: Jeroen Mulder
+naam: Jeroen Mulder (Fujitsu)
 titel: Hybrid IT Executive Enterprise Architect
 ref: jeroen-mulder
 ---

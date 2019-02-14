@@ -1,5 +1,5 @@
 ---
-naam: Oscar van Voskuilen
+naam: Oscar van  (PPenP)
 titel: organisatie-veranderaar
 ref: oscar-van-voskuilen
 ---

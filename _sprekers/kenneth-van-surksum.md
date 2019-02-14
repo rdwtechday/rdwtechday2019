@@ -1,5 +1,5 @@
 ---
-naam: Kenneth van Surksum
+naam: Kenneth van Surksum (Insight24)
 titel: Managing Consiltant Insight 24
 ref: kenneth-van-surksum
 ---

@@ -1,5 +1,5 @@
 ---
-naam: Karel Brookhuis
+naam: Karel Brookhuis (RUG)
 titel: PhD University of Groningen
 ref: karel-brookhuis
 ---
